@@ -508,7 +508,7 @@ class Params:
         self.maxDets = [1, 10, 100]
         #self.areaRng = [[0 ** 2, 1e5 ** 2], [0 ** 2, 32 ** 2], [32 ** 2, 96 ** 2], [96 ** 2, 1e5 ** 2]]
         self.areaRng=[[0 ** 2, 1e5 ** 2], [0 ** 2, 32 ** 2], [32 ** 2, 96 ** 2], [96 ** 2, 1e5 ** 2]]
-        print("Control was here setKpParams\n","self.areaRng",self.areaRng)
+        print("Control was here setDetParams\n","self.areaRng",self.areaRng)
         self.areaRngLbl = ['all', 'small', 'medium', 'large']
         self.useCats = 1
 
